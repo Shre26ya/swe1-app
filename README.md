@@ -8,7 +8,10 @@ Personal Assignment - Django Hello World
 
 AWS Link: [http://test-env.eba-wttmkmps.us-west-2.elasticbeanstalk.com/polls/]
 
-Assignment Details:  
+Assignment Details: 
+
 Name: Shreya Sudhakaran 
+
 NYU Net ID: ss18292
+
 NYU N ID: N11379649
