@@ -1,8 +1,6 @@
 [flake8]
-max-line-length = 92
-exclude = 
-    .git,
-    __pycache__,
-    env,
-    venv,
-    eb-virt,
+per-file-ignores =
+    my_site/*: E501
+exclude = .git,__pycache__,.venv, myenv,eb-virt, polls/migrations
+max-complexity = 10
+max-line-length= 88
