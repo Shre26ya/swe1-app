@@ -1,0 +1,9 @@
+asgiref
+Django==4.2.5
+sqlparse
+pytest
+coverage
+flake8
+black
+coveralls
+pyyaml
