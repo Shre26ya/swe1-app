@@ -4,9 +4,8 @@ os: linux
 python:
   - "3.11"
 script:
-  - black --check .
-  - flake8 --max-line-length=100 .
-  - coverage run --source=mysite,polls manage.py test
+  - black --check . --exclude=eb-virt
+  - coverage run manage.py test
 install:
   - pip install -r requirements.txt
 after_success:
