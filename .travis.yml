@@ -4,8 +4,8 @@ os: linux
 python:
   - "3.11"
 script:
-  - black --check .
-  - flake8 --max-line-length=100 .
+  - black --check . --exclude=eb-virt
+  - flake8 --max-line-length=100 . --exclude=eb-virt
   - coverage run manage.py test
 install:
   - pip install -r requirements.txt
