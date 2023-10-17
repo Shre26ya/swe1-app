@@ -1,6 +1,0 @@
-[flake8]
-per-file-ignores =
-    my_site/*: E501
-exclude = 
-max-complexity = 10
-max-line-length= 88
