@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.template import loader
 from .models import Choice, Question
 from django.urls import reverse
 from django.http import HttpResponse, HttpResponseRedirect
