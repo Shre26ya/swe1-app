@@ -1,7 +1,8 @@
 [flake8]
 max-line-length = 92
-exclude =
+exclude = 
     .git,
     __pycache__,
     env,
     venv,
+    eb-virt,
