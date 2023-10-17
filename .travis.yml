@@ -2,7 +2,7 @@ language: python
 dist: bionic
 os: linux
 python:
-  - "3.11.5"
+  - "3.11"
 script:
   - black --check .
   - flake8 --max-line-length=100 .
@@ -20,4 +20,4 @@ deploy:
   env: "test-env"
   bucket_name: "elasticbeanstalk-us-west-2-459941722932"
   on:
-    branch: master
+    branch: main
